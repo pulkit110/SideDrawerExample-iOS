@@ -2,6 +2,8 @@
 # platform :ios, "6.0"
 
 target "SideDrawerExample" do
+	source 'https://github.com/CocoaPods/Specs.git'
+
   pod 'MMDrawerController', '~> 0.5'
 end
 
